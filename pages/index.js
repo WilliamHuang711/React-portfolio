@@ -239,12 +239,16 @@ export default function Home() {
                 src={web9}
               />
             </div>
-
-
-
-
-
         </section>
+
+
+        <footer className="flex justify-center">
+
+      <br />
+      
+      <p className=" dark:text-white">William Huang © 2022</p>
+
+    </footer>
 
       </main>
 
