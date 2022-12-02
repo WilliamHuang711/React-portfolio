@@ -19,8 +19,13 @@ import web8 from "../public/web8.png";
 import web9 from "../public/web9.png";
 
 
+
 export default function Home() {
+
+  const [darkMode, setDarkMode] = useState(false);
+
   return (
+    <div className={darkMode ? "dark" : ""}>
     <div>
       <Head>
         <title>William Huang Portfolio</title>
@@ -245,6 +250,8 @@ export default function Home() {
 
       </main>
 
+
+    </div>
     </div>
   )
 }
