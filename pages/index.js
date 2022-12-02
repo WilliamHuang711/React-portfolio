@@ -14,8 +14,8 @@ import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
-import web7 from "../public/web7.png";
-import web8 from "../public/web8.png";
+import web7 from "../public/images/web7.png";
+import web8 from "../public/images/web8.png";
 import web9 from "../public/web9.png";
 
 
@@ -220,10 +220,8 @@ export default function Home() {
                 layout="responsive"
                 src={web7}
               />
-              
-            </div> */}
-            {/* <div className=" flex-1">
-
+            </div>
+            <div className=" flex-1">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
