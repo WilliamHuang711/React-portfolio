@@ -46,8 +46,7 @@ export default function Home() {
               Geographer and cartographer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-            Hi! My name is William Huang, I am a cartographer; 
-            a part-time hair colorist; and currently styduing in web development.
+            Hi! My name is William Huang!
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <AiFillTwitterCircle />
@@ -56,6 +55,60 @@ export default function Home() {
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
               <Image src={personal} layout="fill" objectFit="cover" />
+            </div>
+          </div>
+        </section>
+        <section>
+          <div>
+            <h3 className="text-3xl py-1 dark:text-white ">About Me</h3>
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+            In 2021, I received my BS in <span className="text-teal-500">Geography and GIST</span> at UC Berkeley; 
+            After I graduated from UCB, I started to learn something that I never try before,
+            such as to be a part-time hair colorist, traders buy and sell stocks to get a short-term profit
+            and currently finishing my <span className="text-teal-500">Full Stack Web Developer’s certification</span>
+            at UC Berkeley Extension.
+            </p>
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+            My Favorite Quote: Try and fail, but don't fail to try.
+            </p>
+          </div>
+          <div className="lg:flex gap-10">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+
+              <h3 className="text-lg font-medium pt-8 pb-2  ">
+                GIS Analyst
+              </h3>
+              <p className="py-2">
+              Using mapping software to analyze spatial data and design digital maps
+              </p>
+              <h4 className="py-4 text-teal-600">Mainly Use Tools</h4>
+              <p className="text-gray-800 py-1">ArcMap/Pro</p>
+              <p className="text-gray-800 py-1">Photoshop</p>
+            </div>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+              <h3 className="text-lg font-medium pt-8 pb-2 ">
+                Cartographer
+              </h3>
+              <p className="py-2">
+              Collect and interpret geographic information in order to 
+              create and update maps and charts for specific purposes.
+              </p>
+              <h4 className="py-4 text-teal-600">Mainly Use Tools</h4>
+              <p className="text-gray-800 py-1">ArcMap/Pro</p>
+              <p className="text-gray-800 py-1">ENVI</p>
+              <p className="text-gray-800 py-1">Photoshop</p>
+              <p className="text-gray-800 py-1">Illustrator</p>
+            </div>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+              <h3 className="text-lg font-medium pt-8 pb-2 ">Web Developer</h3>
+              <p className="py-2">
+                Are you interested in feedback for your current project? I can
+                give you tips and tricks to level it up.
+              </p>
+              <h4 className="py-4 text-teal-600">Mainly Use Tools</h4>
+              <p className="text-gray-800 py-1">HTML</p>
+              <p className="text-gray-800 py-1">CSS</p>
+              <p className="text-gray-800 py-1">Javascript</p>
             </div>
           </div>
         </section>
