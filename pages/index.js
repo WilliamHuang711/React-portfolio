@@ -62,7 +62,7 @@ export default function Home() {
               Geographer and cartographer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-            HELLO! Check out my personal websites below!
+            HELLO! Welcome to my personal websites!
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <a href="https://twitter.com/williameyey"><AiFillTwitterCircle /> </a>
